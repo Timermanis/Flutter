@@ -1,0 +1,10 @@
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
+  round_image_path: "assets/icon_round.png"
+  # Ensures adaptive / round icon layers are generated for modern Android versions
+  adaptive_icon_background: "#1E293B" # Background color layer
+  adaptive_icon_foreground: "assets/icon_foreground.png" # Safe-zone padded foreground layer
+  # Specifies minimum Android SDK (Default: 21)
+  min_sdk_android: 21
